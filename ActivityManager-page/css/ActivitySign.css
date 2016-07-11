@@ -1,0 +1,25 @@
+body {
+    padding: 60px 0;
+    background-color: #fafafa;
+}
+
+.num-info {
+    display: inline-block;
+}
+
+.card{
+    border: 1px solid #e0e0e0;
+    margin: 5px;
+}
+
+.operate img {
+    height: 30px;
+    width: 30px;
+}
+
+.operate a {
+    width: 24%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
