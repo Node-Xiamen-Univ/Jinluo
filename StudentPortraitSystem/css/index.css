@@ -1,0 +1,220 @@
+body{    padding-top: 50px;}
+
+#top{
+	padding-top: 12vw;
+	margin-left: 7vw;
+    margin-right: 5vw;
+	margin-bottom: auto;
+}
+.showImg{
+	 height: 30vw; 
+	 text-align: center;
+}
+.showImg img{    max-height: 100%;}
+#topProfile{    padding-left: 10vw;}
+
+#topProfile h1{
+	font-size: 5vw;
+	margin-bottom: 3vw;
+}
+#topProfile p{  
+    line-height: 3vw;
+	font-size: 1.5vw;
+	padding: 10px 2vw;
+	}
+#topProfile .btn{    margin-top: -10px;}
+
+#statistics,#dig{
+	padding-top: 12vw;
+	margin-left: 7vw;
+    margin-right: 5vw;
+	margin-bottom: auto;
+}
+
+#analyse{    padding-top: 10vw;}
+#analyse > #analyseTitle{ 
+    text-align: center;
+    font-size: 1.5rem;
+	color: white;
+    margin-bottom: 3vw;
+	}
+	
+#analyse #analyseContent{/*make analyse center*/
+    width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	
+}
+#analyse .analyseContent{
+    width: 22%; /*adjust col-md-3 avoid div wrap*/
+	text-align: center;
+    color: white;
+	background-color: #10181f;
+	border-radius: 10px;
+}
+
+#analyse .analyseContent img{
+	max-width: 80%;
+	max-height: 80%;
+}
+
+#about{    padding-top: 12vw;}
+#about #inputEmail,#inputFeedback{
+	background-color: #10181f;
+	border-width: 0px;
+	color: white;
+}
+#about #feedback{
+	padding-left: 7vw;
+	padding-right: 9vw;
+	padding-bottom: auto;
+	border-right: 1px solid #10181f;
+}
+
+#about .form-group label{
+	color: #a4a4a8;
+	font-weight: 200;
+	font-size: 1.1vw;
+}
+#about .form-group #inputEmail{
+	width: 78%;
+	display: inline;
+	color: #434857;
+	font-size: 1.1vw;
+}
+#about .form-group #inputFeedback{	height: 10vw;}
+#about .form-group .btn{
+	float: right;
+	display: inline;
+	width: 20%;
+	background-color: #20447B;
+	border-width: 0px;
+}
+#about #aboutUs{
+	padding-top: 1vw;
+	padding-right: 5vw;
+	padding-left: 9vw;
+	padding-bottom: 1vw;	
+}
+#about #aboutUs h1{    font-size: 1.3vw;}
+#about #aboutUs a{
+    font-size: 1.3vw;
+    color: #10181f;
+}
+#about #aboutUs a:hover{
+    color: #acadb4;
+	text-decoration: none;
+}
+#about #aboutUs .linkLogo{
+	height: 2.5vw;
+	width: 2.5vw;
+	margin-right: 2px;
+}
+
+ /*------------for ipad-------------*/
+@media(max-width:992px){
+	#top,#statistics,#dig {
+		padding-top: 12vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		margin-bottom: auto;
+	}
+	.showImg{
+		 height: 50vw; 
+		 text-align: center;
+	}
+	.showImg img{  max-height: 100%;}
+	#topProfile {     padding-left: 0;}
+	#topProfile h1{
+		margin-top : 7vw;
+		font-size: 9vw;
+	}
+	#topProfile p{
+		line-height: 3.5vw;
+		font-size: 3vw;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5vw  10vw;
+	}
+	#topProfile btn{
+		height: 45px;
+		font-size: 1em;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+	
+	#analyse .analyseContent{
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+    #analyse .analyseContent{  margin-top: 5vw;}
+	#about{
+	    margin-top: 10vw;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+        padding-top: 7vw;
+		border-top: 1px solid #10181f;
+    }
+	#about #feedback{
+		border-right-width: 0px;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		}
+	#about #aboutUs{
+		text-align: center;
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+}
+ /*------------for iphone and android-------------*/
+ @media(max-width: 526px){
+     .showImg{
+		   height: 54vw; 
+		   text-align: center;
+		   padding-left: 0vw;
+	  }
+	  .showImg img{  max-height: 100%;}
+	  #topProfile h1{
+		  font-size: 10vw;
+		  margin-top: 8vw;
+		  margin-bottom: 8vw;
+	  }
+	  #topProfile p{  
+	      margin-bottom: 6vw;
+		  line-height: 7vw;
+		  font-size: 1.5vw;
+		  padding: 0;
+	   }
+	  #topProfile .btn {
+		  margin-top: -10px;
+		  height: 35px;
+		  font-size: 1vw;
+	  }
+	  
+	   #about .form-group #inputEmail{
+		  width: 100%;
+		  display: block;
+		  color: #434857;
+		  font-size: 1.1vw;
+	  }
+	  #about .form-group .btn{
+		  float: none;
+		   height: 33px;
+		   font-weight: 100;
+		   font-size: 1vw !important;
+		   width: 40%;
+		   margin-top: 3vw;
+		   margin-left: 30%;
+	   }
+	   #about .form-group #inputFeedback{  height: 25vw;}
+	   #footerHr{  margin-bottom: 20px;}
+}

@@ -1,0 +1,146 @@
+@charset "utf-8";
+	
+	/*pc*/
+	.dateBtn{ 
+        margin: 2.0vw 7vw auto auto;
+		float: right;
+	}
+	.showPaneTitle{
+		margin: 2vw 1.2vw auto 1vw;
+		font-size: 2.2vw;
+		font-weight: 400;
+	}
+	.showPaneTitle img{
+		  height: 3vw;
+		  width: 3w;
+		  margin-left: 2.5em;
+		  margin-right: 0.9em;
+		  margin-top: -0.3em;
+	}
+	.my-hr{
+		background-color: #10181f;
+		width: 85%;
+		height: 1px;
+		margin: 2vw auto auto auto;
+		z-index: -1;
+	}
+	#profile{
+		margin-left: 40px;
+		margin-top: 10px;
+        text-align: center;
+	}
+	#profile #userName{
+		font-size: 1.5rem;
+		background-color: #10181f;
+		color: white;
+		border-radius: 1rem;
+		line-height: 2rem;
+		margin-top: 0.7vw;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 15vw;
+	}
+	#profile #info{
+		color: #acadb4;
+		font-size: 1.2rem;
+	}
+	#content{
+		margin-left: -5vw !important;
+	}
+	
+	#navBtn{
+		background-color:#18242e !important;
+		margin-top: 0.8rem;
+		border-width: 0;
+	}
+	@media(min-width: 992px){ /*bigger than md*/
+		#navBtn{ display: none;}
+	}
+	
+	
+	.modal-header{ border-bottom-color: rgba(8,17,38,1.00);}
+	.modal-footer{ border-top-color: rgba(8,17,38,1.00);}
+	.modal-body ul{ height: 10rem;}
+	.modal-content{ background-color: rgba(36,40,58,1.00);}
+	.modal-body ul li{ float:left;margin: 1rem;}
+    
+	
+	@media(max-width: 992px){ /*smaller than md*/
+	    #sidebar{  display:none;}
+		
+		.dateBtn{ 
+			margin: 2.0vw 12vw auto auto;
+			float: right;
+		}
+		.showPaneTitle{
+			margin: 2.0vw auto auto 10vw;
+			font-size: 3vw;
+			font-weight: 400;
+		}
+		.showPaneTitle img{
+			  height: 3vw;
+			  width: 3w;
+			  margin-left: 2.5em;
+			  margin-right: 0.9em;
+			  margin-top: -0.3em;
+		}
+		.my-hr{
+			background-color: #10181f;
+			width: 75%;
+			height: 1px;
+			margin: 2vw auto auto auto;
+			z-index: -1;
+		}
+		#navBtn img{
+			display: none;
+		}
+		#navExitBtn{
+			background-color:#18242e !important;
+			border-width: 0;
+		}
+	}
+	
+	@media(max-width: 526px){ /*iphone android*/
+	     #sidebar{  display:none;}
+		
+		.dateBtn{ 
+			margin: 0vw 10vw auto auto;
+			float: right;
+		}
+		.showPaneTitle{
+			margin: 2.0vw auto auto 10vw;
+			font-size: 5vw;
+			font-weight: 400;
+		}
+		.showPaneTitle img{
+			  height: 5vw;
+			  width: 5w;
+			  margin-left: 1.5em;
+			  margin-right: 0.9em;
+			  margin-top: -0.3em;
+		}
+		.my-hr{
+			background-color: #10181f;
+			width: 80%;
+			height: 1px;
+			margin: 4vw auto auto auto;
+			z-index: -1;
+		}
+		#navBtn img{
+			display: inherit;
+			height: 1.7rem;
+			width:  1.7rem;
+			margin-right: 0.5rem;
+			margin-top: -0.2rem;
+		}
+		#navExitBtn{
+			background-color:#18242e !important;
+			border-width: 0;
+		}
+		.navbar-brand{display: none;}
+	}
+	
+	
+	
+	
+    
