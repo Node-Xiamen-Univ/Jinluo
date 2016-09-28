@@ -8,11 +8,11 @@
     
   <body>
     <!-- navbar -->
-    <?php include("/templates/navbar.php") ?> 
+    <?php include("templates/navbar.php") ?> 
     <!-- contain -->
     <div class="row">
         <!-- sidebar and modal -->
-        <?php include("/templates/sidebar.php")?>
+        <?php include("templates/sidebar.php")?>
         
         <div class="modal fade modal-inverse" id="mymodal">
             <div class="modal-dialog">
